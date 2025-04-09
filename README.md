@@ -60,9 +60,9 @@ Mi enfoque está en construir soluciones claras, modernas y bien estructuradas, 
 
 2. Instala las dependencias:
 
-    bash
+    ```bash
     npm install
-    
+    ```
 
 3. Corre el entorno de desarrollo:
 
