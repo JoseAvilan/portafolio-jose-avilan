@@ -6,6 +6,21 @@ Este archivo sigue el formato [Keep a Changelog](https://keepachangelog.com/es/1
 
 ---
 
+## [0.2.0] - 2025-04-11
+
+### Agregado
+- Componente `Navbar.astro` (antes `Header.astro`) con navegación flotante tipo dock (estilo macOS)
+- Tooltips accesibles y navegación semántica (`role="navigation"`, `aria-label`)
+- Estructura modular de íconos reutilizables en `src/icons`
+- Implementación de archivo `index.js` para importación centralizada de íconos
+- Preparación de sistema de traducciones (`i18n/es.js`) con textos base para navegación
+
+### Refactorizado
+- Renombrado `Header.astro` a `Navbar.astro` por claridad semántica y propósito real del componente
+- Limpieza de imports en `Navbar` y adopción de clases dinámicas con `Astro.props` en íconos
+
+---
+
 ## [0.1.0] - 2025-04-10
 
 ### Agregado
@@ -20,6 +35,7 @@ Este archivo sigue el formato [Keep a Changelog](https://keepachangelog.com/es/1
 ## [Unreleased]
 
 > Próximos pasos:
-- Componente `Header.astro` con navegación flotante tipo macOS
-- Organización del sistema de traducciones (`i18n`)
-- Secciones: Inicio, Sobre mí, Proyectos, Contacto
+- Implementación de anclas internas y secciones reales (Inicio, Sobre mí, Proyectos, Contacto)
+- Animaciones de entrada y scroll
+- Toggle de modo oscuro / claro
+- Selector de idioma (`es/en`)

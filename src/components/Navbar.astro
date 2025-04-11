@@ -1,0 +1,41 @@
+---
+import es from "../i18n/es.js";
+const t = es;
+import { Home, User, Projects, Contact } from "../icons";
+---
+
+<nav class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-zinc-800/80 backdrop-blur-md border border-zinc-700/30 px-6 py-3 rounded-2xl shadow-lg flex gap-6" role="navigation" aria-label="Menú principal">
+
+  <!-- Inicio -->
+  <a href="#inicio" class="group relative">
+    <Home class="w-6 h-6 text-zinc-300 group-hover:text-white transition duration-200" />
+    <span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-zinc-900 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
+      {t.inicio}
+    </span>
+  </a>
+  
+  <!-- Sobre mí -->
+  <a href="#sobreMi" class="group relative">
+    <User class="w-6 h-6 text-zinc-300 group-hover:text-white transition duration-200" />
+    <span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-zinc-900 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
+      {t.sobreMi}
+    </span>
+  </a>
+
+  <!-- Proyectos -->
+  <a href="#proyectos" class="group relative">
+    <Projects class="w-6 h-6 text-zinc-300 group-hover:text-white transition duration-200" />
+    <span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-zinc-900 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
+      {t.proyectos}
+    </span>
+  </a>
+
+  <!-- Contacto -->
+  <a href="#contacto" class="group relative">
+    <Contact class="w-6 h-6 text-zinc-300 group-hover:text-white transition duration-200" />
+    <span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-zinc-900 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
+      {t.contacto}
+    </span>
+  </a>
+
+</nav>

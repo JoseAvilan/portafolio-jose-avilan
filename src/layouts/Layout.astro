@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import Navbar from "../components/Navbar.astro";
 ---
 
 <!doctype html>
@@ -15,6 +16,7 @@ import "../styles/global.css";
 	</head>
 	<body class="bg-zinc-900 text-white antialiased transition-colors duration-300"> 
 		<slot />
+		<Navbar />
 	</body>
 </html>
 
