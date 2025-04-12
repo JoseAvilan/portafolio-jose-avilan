@@ -6,6 +6,12 @@ Este archivo sigue el formato [Keep a Changelog](https://keepachangelog.com/es/1
 
 ---
 
+## [0.2.1] - 2025-04-12
+
+### Refactorizado
+- Eliminado archivo `index.js` en `src/icons` por recomendación de mejores prácticas
+- Reemplazadas importaciones agrupadas por importaciones directas de íconos
+
 ## [0.2.0] - 2025-04-11
 
 ### Agregado
